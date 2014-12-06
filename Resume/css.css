@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body {
+font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+font-size: 14px;
+line-height: 1.4;
+color: #444;
+background-image: -webkit-image-set(url(image/9500e9a1.main_bg.png) 1x,url(image/9d6ac564.main_bg@2x.png) 2x);
+margin:0;
+}
+#masthead {
+margin-top: 40px;
+text-align: center;
+}
+#masthead h1 {
+border-radius: 50% / 50%;
+margin-right: auto;
+margin-left: auto;
+height: 120px;
+width: 120px;
+background: url(image/IMG_1288.JPG) no-repeat center center transparent;
+background-image: -webkit-image-set(urlimage/IMG_1288.JPG) 1x,url(image/IMG_1288.JPG) 2x);
+background-size: cover;
+box-shadow: 1px 1px 1px rgba(0,0,0,.3) inset;
+text-indent: 100%;
+white-space: nowrap;
+font-size: 0;
+}
+
+#masthead .description {
+background-color: #000;
+padding: 5px 17px;
+display: inline-block;
+color: #fff;
+font-size: 18px;
+font-weight: 700px;
+text-transform: uppercase;
+border-radius: 3px;
+border-left: 3px solid #ff4136;
+border-right: 3px solid #0074d9;
+}
+#tittle {
+padding-right: 550px;
+}
+#main{
+max-width: 800px;
+margin: 30px auto;
+padding: 40px 60px;
+background: #fff;
+position: relative;
+border-radius:5px;
+}
+.bored
+{
+    max-width: 800px;
+    border-left:3px #333 solid;
+    margin: 0px auto;
+    padding:4px  5px;
+}
+.entry-title{
+color: #111;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1;
+margin-top: 0;
+padding-left: 40px;
+}
+.sub-title{
+    color: #aaa;
+font-size: 13px;
+padding-left: 5px;
+}
+#ziti{
+    margin: 30px auto;
+padding: 0px 44px;
+background: #fbfbfb;
+border: 1px solid #f3f3f3;
+border-radius: 8px;
+position: relative;
+border-width: 0 1px 1px;
+border-color: #fff #f3f3f3 #e8e8e8;
+line-height: 1.6em;
+}
+h3
+{
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+}
+.list
+{
+    margin: 30px 0;
+padding-left: 10px;
+list-style: none;
+}
+.item
+{
+    position: relative;
+cursor: pointer;
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+.list-item-little
+{
+    color: #111;
+font-weight: 400;
+margin: 10px 0 5px;
+font-size: 16px;
+}
+.position-title
+{
+font-size: 14px;
+color: #666;
+}
+.date-title
+{
+    color: #aaa;
+font-size: 12px;
+}
+ .item:hover .list-item-little{
+color: #0074d9;
+}
+.list.item.p
+{
+color: #555;
+margin: 10px 0;
+line-height: 1.8;
+font-size: 13px;
+}
+.entry-title1{
+color: #111;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1;
+margin-top:50px;
+padding-left: 40px;
+}
+#main.gallery {
+padding: 0 0 0 10px;
+list-style: none;
+font-size: 0;
+letter-spacing: -.31em;
+word-spacing: -.43em;
+}
+#main .gallery .gallery-item {
+letter-spacing: normal;
+word-spacing: normal;
+vertical-align: top;
+display: inline-block;
+margin: 27px 67px 21px 86px;
+}
+#main .gallery .gallery-item a {
+position: relative;
+padding: 3px;
+border: 5px solid #ddd;
+display: block;
+line-height: 0;
+text-decoration: none;
+}
+#main .gallery .gallery-item a img {
+height: 135px;
+width: 180px;
+}
+#main.gallery .gallery-item a:after {
+-webkit-transition-delay: 300ms;
+transition: all ease 300ms;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: transparent;
+content: '\e80c';
+font-family: resume-font;
+font-style: normal;
+font-weight: 400;
+speak: none;
+line-height: 135px;
+text-align: center;
+color: #fff;
+font-size: 32px;
+display: block;
+visibility: hidden;
+}
+#download {
+text-align: center;
+}
+#download .download {
+font-size: 18px;
+text-decoration: none;
+color:#aaa;
+border-bottom: 1px dotted #ddd;
+}
+ #download:hover .download{
+color:#b10dc9;
+}
+#mastfoot {
+font-weight: 700;
+font-size: 12px;
+text-align: center;
+text-transform: uppercase;
+color: #aaa;
+margin: 20px auto 60px;
+text-shadow: 1px 1px 1px #fff;
+}
+iframe {
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}
