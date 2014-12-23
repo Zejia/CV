@@ -11,47 +11,19 @@ margin:0;
 margin-top: 40px;
 text-align: center;
 }
-.back
-{
-   list-style: none;
-}
-.nizhi
-{
+#masthead h1 {
 border-radius: 50% / 50%;
 margin-right: auto;
 margin-left: auto;
 height: 120px;
 width: 120px;
-}
-.back li figcaption
- {
-  position: absolute;
-  left:20px;
-  top:0;
-   }
-.back li h1
- {
-    text-align:left;
-    font-size:100%;
-    line-height :10px;
-     padding: 5px;
-     color: #554460;
-     opacity: 0;
-     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-     transition: opacity 0.35s, transform 0.35s;
-     -webkit-transform: scale(0);
-     transform: scale(0);
-
- }
-.back li:hover h1
-{
- opacity: 1;
- -webkit-transform: scale(1);
- transform: scale(1);
-  }
-.back li:hover img
-{
-    opacity: 0.9;
+background: url(image/IMG_1288.JPG) no-repeat center center transparent;
+background-image: -webkit-image-set(urlimage/IMG_1288.JPG) 1x,url(image/IMG_1288.JPG) 2x);
+background-size: cover;
+box-shadow: 1px 1px 1px rgba(0,0,0,.3) inset;
+text-indent: 100%;
+white-space: nowrap;
+font-size: 0;
 }
 
 #masthead .description {
@@ -91,12 +63,12 @@ font-weight: 400;
 text-transform: uppercase;
 line-height: 1;
 margin-top: 0;
-padding-left: 15px;
+padding-left: 40px;
 }
 .sub-title{
     color: #aaa;
-font-size: 12px;
-padding-left:1px;
+font-size: 13px;
+padding-left: 5px;
 }
 #ziti{
     margin: 30px auto;
@@ -118,7 +90,7 @@ font-size: 1.17em;
 -webkit-margin-end: 0px;
 font-weight: bold;
 }
-
+}
 .list
 {
     margin: 30px 0;
@@ -166,7 +138,7 @@ font-weight: 400;
 text-transform: uppercase;
 line-height: 1;
 margin-top:50px;
-padding-left: 15px;
+padding-left: 40px;
 }
 #main.gallery {
 padding: 0 0 0 10px;
@@ -225,7 +197,7 @@ color:#aaa;
 border-bottom: 1px dotted #ddd;
 }
  #download:hover .download{
-color:#8CB3DF;
+color:#b10dc9;
 }
 #mastfoot {
 font-weight: 700;
